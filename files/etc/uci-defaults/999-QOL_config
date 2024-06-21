@@ -2,8 +2,8 @@ uci -q batch << EOI
 # Set memory profile to auto
 set pbuf.opt.memory_profile='auto'
 
-set system.@system[0].timezone=CST-8
-set system.@system[0].zonename=Asia/Shanghai
+set system.@system[0].timezone='CST-8'
+set system.@system[0].zonename='Asia/Shanghai'
 
 # Wireless default settings for radio0
 #set wireless.default_radio0.dtim_period='1'
