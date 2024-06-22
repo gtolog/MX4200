@@ -6,14 +6,14 @@ set system.@system[0].timezone='CST-8'
 set system.@system[0].zonename='Asia/Shanghai'
 
 # Wireless default settings for radio0
-#set wireless.default_radio0.dtim_period='1'
-#set wireless.default_radio0.max_inactivity='86400'
-#set wireless.default_radio0.disassoc_low_ack='0'
-#set wireless.default_radio0.wnm_sleep_mode='1'
-#set wireless.default_radio0.ieee80211k='1'
-#set wireless.default_radio0.time_advertisement='2'
-#set wireless.default_radio0.bss_transition='1'
-#set wireless.default_radio0.proxy_arp='1'
+set wireless.default_radio0.dtim_period='1'
+set wireless.default_radio0.max_inactivity='86400'
+set wireless.default_radio0.disassoc_low_ack='0'
+set wireless.default_radio0.wnm_sleep_mode='1'
+set wireless.default_radio0.ieee80211k='1'
+set wireless.default_radio0.time_advertisement='2'
+set wireless.default_radio0.bss_transition='1'
+set wireless.default_radio0.proxy_arp='1'
 
 # Wireless radio0 specific settings
 #set wireless.radio0.htmode='HE160'
@@ -21,18 +21,27 @@ set system.@system[0].zonename='Asia/Shanghai'
 #set wireless.radio0.country='US'
 
 # Wireless default settings for radio1
-#set wireless.default_radio1.dtim_period='1'
-#set wireless.default_radio1.max_inactivity='86400'
-#set wireless.default_radio1.disassoc_low_ack='0'
-#set wireless.default_radio1.wnm_sleep_mode='1'
-#set wireless.default_radio1.ieee80211k='1'
-#set wireless.default_radio1.time_advertisement='2'
-#set wireless.default_radio1.bss_transition='1'
-#set wireless.default_radio1.proxy_arp='1'
+set wireless.default_radio1.dtim_period='1'
+set wireless.default_radio1.max_inactivity='86400'
+set wireless.default_radio1.disassoc_low_ack='0'
+set wireless.default_radio1.wnm_sleep_mode='1'
+set wireless.default_radio1.ieee80211k='1'
+set wireless.default_radio1.time_advertisement='2'
+set wireless.default_radio1.bss_transition='1'
+set wireless.default_radio1.proxy_arp='1'
 
 # Wireless radio1 specific settings
 #set wireless.radio1.htmode='HE40'
 #set wireless.radio1.country='US'
+
+set wireless.default_radio2.dtim_period='1'
+set wireless.default_radio2.max_inactivity='86400'
+set wireless.default_radio2.disassoc_low_ack='0'
+set wireless.default_radio2.wnm_sleep_mode='1'
+set wireless.default_radio2.ieee80211k='1'
+set wireless.default_radio2.time_advertisement='2'
+set wireless.default_radio2.bss_transition='1'
+set wireless.default_radio2.proxy_arp='1'
 
 # Firewall settings
 set firewall.@defaults[0].flow_offloading='0'
