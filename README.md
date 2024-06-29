@@ -1,8 +1,6 @@
-# MX4200 openwrt build
+# Qualcommax NSS Builder
 
 This is a fork of [JuliusBairaktaris/Qualcommax_NSS_Builder](https://github.com/JuliusBairaktaris/Qualcommax_NSS_Builder).
-
-# Qualcommax NSS Builder
 
 This project automates the process of building OpenWrt firmware images for the Qualcomm IPQ807x platform, specifically targeting the Xiaomi AX3600 router. The build process incorporates various optimizations, hardening options, and quality-of-life enhancements. 
 
